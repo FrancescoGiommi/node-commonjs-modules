@@ -20,3 +20,13 @@ Segui questi tre step creando i rispettivi files:
     Crea una funzione che non ha parametri.
     All'interno della tua funzione, usa le tue due funzioni precedenti per costruire l'oggetto.
     La funzione dovrebbe restituisce un oggetto con tre proprietà: firstName, lastName, hobbies.  */
+
+const { fullName } = require("./names");
+const { hobby } = require("./hobbies");
+
+const userHobby = () => {
+  const people = { fullName, hobby };
+  return people;
+};
+
+console.log(userHobby());
