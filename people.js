@@ -25,8 +25,8 @@ const { fullName } = require("./names");
 const { hobby } = require("./hobbies");
 
 const userHobby = () => {
-  const people = { fullName, hobby };
-  return people;
+  const user = { fullName, hobby };
+  return user;
 };
 
 console.log(userHobby());

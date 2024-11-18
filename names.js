@@ -1,9 +1,5 @@
 const fullName = (firstName, lastName) => {
-  const userName = {
-    firstName,
-    lastName,
-  };
-  return userName;
+  return { firstName, lastName };
 };
 
 module.exports = fullName;
