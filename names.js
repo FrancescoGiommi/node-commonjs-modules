@@ -6,4 +6,4 @@ const fullName = (firstName, lastName) => {
   return userName;
 };
 
-module.exports = fullName;
+module.exports = fullName();

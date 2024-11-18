@@ -7,4 +7,4 @@ const hobby = (hobbyOne, hobbyTwo, hobbyThree) => {
   return hobbies;
 };
 
-module.exports = hobby;
+module.exports = hobby();
